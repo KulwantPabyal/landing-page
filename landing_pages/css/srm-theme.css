@@ -1,0 +1,1499 @@
+f@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+bord {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul,
+ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.topbar {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 20px 0;
+    z-index: 33;
+}
+
+.topbar .navbar {
+    padding: 0;
+    background: transparent!important;
+}
+.topbar .navbar .navbar-brand{
+    position: relative;
+}
+.topbar .navbar .navbar-brand img{
+}
+.topbar .navbar  .btn{
+    height: 56px;
+    line-height: 56px;
+}
+.btn-green{
+    background: #0acf83;
+    padding: 0 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all ease .2s;
+}
+.btn-green:hover {
+    background: #07bf78;
+}
+
+.bannerMain{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px;
+
+/* overflow: hidden; */
+}
+.bannerMain .shapes {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    background: #c7c7c721;
+    border-radius: 100px;
+    top: -547px;
+    right: 279px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.bannerMain .shapes:before {
+    content: "";
+    position: absolute;
+    width:800px;
+    height: 800px;
+    background: #d8d8d852;
+    z-index: -25!important;
+    border-radius: 150px;
+    top: -35px;
+    right: -47px;
+    overflow: hidden;
+}
+.bannerMain .contentBox{
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.bannerMain .contentBox h1{
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.bannerMain .contentBox p{
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.bannerMain .contentBox .form {
+    width: 100%;
+    max-width: 624px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px 50px;
+    box-shadow: 0px 0px 37px 0px #d5d5d5b3;
+    border-radius: 5px;
+}
+.bannerMain .contentBox .form .Heading{
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.bannerMain .contentBox .form .form-input{
+
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #a2a2a245;
+    border-radius: 0;
+}
+.bannerMain .contentBox .form .form-input .iti--allow-dropdown{
+
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+.bannerMain .contentBox .form .form-input .form-control{
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 0;
+    height: 54px;
+    line-height: 54px;
+   
+    border-radius: 0;
+    padding: 0 12px;
+}
+.bannerMain .contentBox .form .form-input .form-control:focus{
+    box-shadow: none;
+}
+.bannerMain .contentBox .form   .form-input-action{width: 100%;float: left;position: relative;text-align: center;}
+.bannerMain .contentBox .form  .form-input-action .submit-btn{
+    height: 70px;
+    line-height: 70px;
+   
+    border: 0;
+    font-size: 22px;
+}
+.glen__Box{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px;
+}
+.glen__Box .glen__content{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.glen__Box .glen__content h2{
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+}
+.glen__Box .glen__content .glen__videoBox{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    float: left;
+}
+.free_session_steps{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px;
+}
+.free_session_steps .session__Heading{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 720px;
+    margin-bottom: 50px;
+}
+.free_session_steps .session__Heading:before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #34cb7f;
+    top: -10px;
+}
+.free_session_steps .session_Steps{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.free_session_steps .session_Steps .imagesSec{
+    width: 100%;
+    max-width: 530px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    box-shadow: 12px 14px 15px 0px #00000012;
+    background-position: center;
+    background-size: cover;
+}
+.free_session_steps .session_Steps .imagesSec:after {
+    position: absolute;
+    content: "";
+    background: #35cf82;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 30px;
+    top: 30px;
+}
+.free_session_steps .session_Steps .session_steps_List{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.free_session_steps .session_Steps .session_steps_List ul{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.free_session_steps .session_Steps .session_steps_List ul li{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 22px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.free_session_steps .session_Steps .session_steps_List ul li:before {
+    position: absolute;
+    left: -16px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #35cf82;
+    border-radius: 50%;
+    top: 6px;
+}
+.footerPanel{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px;
+}
+.footerPanel .footer__content{
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerPanel .footer__content .footer__left{
+    display: flex;
+    position: relative;
+}
+.footerPanel .footer__content .footer__right{
+    position: relative;
+}
+.footerPanel .footer__content .footer__right ul{
+    display: flex;
+}
+.footerPanel .footer__content .footer__right ul li{
+    padding: 15px 0 15px 30px;
+}
+.footerPanel .footer__content .footer__right ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0a1942;
+}
+.footerCopy{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px solid #e8e8e8;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.bannerMain .contentBox .leftContent{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.bannerMain .contentBox .leftContent h1{
+
+text-align: center;
+
+line-height: 60px;
+}
+.bannerMain .contentBox .leftContent h1 span{
+
+width: 100%;
+
+float: left;
+
+font-size: 18px;
+
+color: #35cf83;
+}
+
+
+.bannerMain .contentBox .RightContent{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .emailOpacity {
+    opacity: 0;
+    height: 1px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals{
+
+width: 100%;
+
+float: none;
+
+position: relative;
+
+max-width: 800px;
+
+padding: 48px 48px;
+
+background-color: #ffff;
+
+box-shadow: 0px -1px 48px 0px #d5d5d5;
+
+border-radius: 10px;
+
+margin: auto;
+
+display: flex;
+
+align-items: center;
+
+flex-direction: column;
+
+justify-content: center;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .title{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals form{
+
+}
+
+.radio-item {
+  display: inline-block;
+  position: relative;
+  padding: 8px 6px;
+  margin: 10px 0 0;
+  width: 100%;
+  float: left;
+}
+
+.radio-item input[type='radio'] {
+  display: none;
+}
+
+.radio-item label {
+  color: #282529;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 14px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #35cf83;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    content: " ";
+    display: block;
+    background: #35cf83;
+    border: 2px solid #35cf83;
+}
+
+.applicationForm{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+padding: 50px 0;
+}
+.applicationForm .applications__FormPanel{
+
+width: 100%;
+
+position: relative;
+
+max-width: 800px;
+
+margin: 0 auto;
+}
+.applicationForm .applications__FormPanel form{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.applicationForm .applications__FormPanel form .input_Form{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+margin-bottom: 30px;
+}
+.applicationForm .applications__FormPanel form .input_Form .label{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+margin-bottom: 15px;
+
+font-weight: 500;
+}
+.applicationForm .applications__FormPanel form .input_Form .input_field{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.applicationForm .applications__FormPanel form .input_Form .input_field label.error {
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: -27px;
+    font-size: 13px;
+}
+.applicationForm .applications__FormPanel form .input_Form .input_field .form-control{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+height: 48px;
+
+line-height: 48px;
+
+border: 1px solid #c3c3c3;
+
+border-radius: 0;
+}
+.applicationForm .applications__FormPanel form .input_Form-action{
+    
+text-align: center;
+}
+.applicationForm .applications__FormPanel form .input_Form-action .applicationBtn{height: 66px;line-height: 66px;text-align: center;border: 0;}
+
+
+.bannerMain .eventCal {
+    width: 100%;
+    max-width: 1064px;
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    min-height: 932px;
+}
+.bannerMain .eventCal p {
+    font-size: 16px;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 30px 0;
+    border-bottom: 1px dashed #d0d0d0;
+}
+.bannerMain .eventCal p a {
+    color: #35cf83;
+}
+
+.EventPanel{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.EventPanel .giftPanel{
+
+width: 100%;
+
+float: none;
+
+position: relative;
+
+text-align: center;
+
+max-width: 872px;    
+
+margin: auto;
+}
+.EventPanel .giftPanel h3{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+font-size: 21px;
+
+margin-bottom: 30px;
+
+font-weight: 600;
+}
+.EventPanel .giftPanel p{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+margin-bottom: 30px;
+}
+.EventPanel .giftPanel ul{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.EventPanel .giftPanel ul li{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+padding: 14px 0;
+}
+.EventPanel .giftPanel ul li a{
+
+color: #35cf83;
+
+font-size: 20px;
+
+font-weight: 600;
+
+width: 100%;
+
+float: left;
+}
+.EventPanel .giftPanel ul li a span {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.EventPanel .giftPanel ul li a span img {
+    max-width: 300px;
+}
+.eventCalBox {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 15px 0px #d5d5d5;
+}
+.eventCalBox .title {
+    width: 100%;
+    float: left;
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+}
+.selectTime {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.selectTime .title {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+.selectTime ul {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.selectTime ul li {
+    width: 50%;
+    float: left;
+    position: relative;
+    padding: 4px;
+}
+.selectTime ul li button {
+    height: 54px;
+    width: 100%;
+    border: 1px solid #a9a9a9;
+    background: transparent;
+    color: #8e8e8e;
+    border-radius: 5px;
+}
+.selectTime ul li button:hover,.selectTime ul li button:focus {
+    background: #35cf83;
+    color: #fff;
+    border-color: #35cf83;
+    outline: 0px;
+}
+
+.actionBtn {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 15px 3px;
+}
+.actionBtn a {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.bannerVideoPanel {
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.bannerVideoPanel iframe {
+    width: 800px;
+    height: 430px;
+}
+
+
+
+.bannerMain .contentBox .form .form-input label.error {
+    color: red;
+    position: absolute;
+    left: 00;
+    bottom: -28px;
+    font-size: 13px;
+}
+
+.applicationForm .applications__FormPanel .input_Form {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 25px;
+}
+.applicationForm .applications__FormPanel .input_Form label {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.applicationForm .applications__FormPanel .input_Form .form-control {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #c3c3c3;
+    border-radius: 0;
+}
+
+.applicationForm .applications__FormPanel .input_Form-action {
+    text-align: center;
+}
+
+.applicationForm .applications__FormPanel .input_Form-action .applicationBtn {
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    border: 0;
+}
+
+.applicationForm .applications__FormPanel .input_Form span {
+    position: absolute;
+    bottom: -19px;
+    font-size: 13px;
+    color: red;
+    display: block;
+}
+
+
+.fancyBox {
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+  .fancyBox .qualifyBox {
+    width: 100%;
+    max-width: 700px;
+    font-size: 27px;
+    font-weight: 700;
+    box-shadow: 0px 0px 72px 1px #d5d5d5;
+    padding: 26px;
+    margin: 100px auto;
+}
+
+
+
+.topbar.blue {
+    background-color: #125197;
+}
+  .stepBanner{
+    
+    }
+    .stepBanner .contentBox{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+    
+padding: 50px 0;
+    }
+    .stepBanner .contentBox h2{
+    
+color: #125197;
+    
+font-size: 55px;
+    
+font-weight: 700;
+    
+line-height: 1.2em;
+    
+margin-bottom: 10px;
+    }
+    .stepBanner .contentBox h4{
+    
+font-size: 31px;
+    
+font-weight: 500;
+    
+line-height: 1.2em;
+    
+color: #1B2A5A;
+    }  
+
+
+.free_session_steps_15{
+    
+width: 100%;
+    
+float: left;
+    
+position: relative;
+    
+padding: 20px 0;
+    }
+    .free_session_steps_15 .session__Heading{
+    
+font-size: 55px;
+    
+font-weight: 700;
+    
+line-height: 1.2em;
+    
+text-align: center;
+    
+color: #125197;
+    
+margin-bottom: 18px;
+    }
+    .free_session_steps_15 p{
+    
+color: #121212;
+    
+font-size: 20px;
+    
+font-weight: 500;
+    
+line-height: 1.6em;
+    }
+    .free_session_steps_15 .italic{
+    font-style: italic;
+    }
+    .free_session_steps_15 .session_Steps{
+    
+width: 100%;
+    
+float: left;
+    
+position: relative;
+    
+margin: 30px 0;
+    }
+    .free_session_steps_15 .session_Steps .session_steps_List{
+    
+width: 100%;
+    
+float: left;
+    
+position: relative;
+    }
+    .free_session_steps_15 .session_Steps .session_steps_List ul{
+    
+width: 100%;
+    
+float: left;
+    
+position: relative;
+    }
+    .free_session_steps_15 .session_Steps .session_steps_List ul li{
+    
+width: 100%;
+    
+float: left;
+    
+position: relative;
+    
+margin-bottom: 20px;
+    
+padding-left: 30px;
+    }
+    
+.free_session_steps_15 .session_Steps .session_steps_List ul li i {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    color: #1055FB;
+    font-size: 20px;
+}
+
+.faqSection{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.faqSection .faqBox{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+text-align: center;
+
+margin: 20px 0;
+}
+.faqSection .faqBox h2{
+
+font-size: 55px;
+
+font-weight: 700;
+
+line-height: 1.2em;
+
+text-align: center;
+
+color: #125197;
+
+margin-bottom: 18px;
+}
+.faqSection .faqAccordian{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.faqSection .faqAccordian .card{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+border: 0;
+}
+.faqSection .faqAccordian .card .card-header{
+
+background: transparent;
+
+border: 0;
+
+padding: 0;
+}
+.faqSection .faqAccordian .card .card-header h5{
+
+}
+.faqSection .faqAccordian .card .card-header .btn{
+
+color: #121212;
+
+font-size: 22px;
+
+font-weight: 600;
+
+line-height: 1.3em;
+
+padding: 20px 0 20px 0;
+
+width: 100%;
+
+text-align: left;
+}
+.faqSection .faqAccordian .card .card-header .btn:hover {
+    text-decoration: none;
+}
+.faqSection .faqAccordian .card .card-body{
+
+color: #121212;
+
+font-size: 20px;
+
+font-weight: 500;
+
+padding: 20px 0 20px 0;
+}
+.faqSection .faqAccordian .card .card-body p{
+
+margin-bottom: 10px;
+}
+.faqSection .faqAccordian .card .card-body p a{
+
+color: #c36;
+}
+
+.faqSection .faqAccordian .card .card-header .btn:after {
+    position: absolute;
+    content: "-";
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    right: 0;
+    top: 13px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 23px;
+    font-size: 52px;
+    color: #35cf83;
+    border: 2px solid #35cf83;
+}
+
+.faqSection .faqAccordian .card .card-header .btn.collapsed:before {
+    position: absolute;
+    content: "+";
+    width: 40px;
+    height: 40px;
+    background: #35cf83;
+    right: 0;
+    top: 13px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 29px;
+    font-size: 39px;
+    border: 2px solid #35cf83;
+    color: #fff;
+    z-index: 1;
+}
+
+.ebookBtn{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+    
+padding: 50px;
+    }
+    .ebookBtn .ebookBtnImg{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+    
+position: relative;
+    }
+    .ebookBtn .ebookBtnImg img{
+    
+max-width: 600px;
+    
+margin-bottom: 30px;
+    }
+    .ebookBtn .reservCopy{
+    
+width: 100%;
+    
+float: left;
+    
+text-align: center;
+    
+position: relative;
+    
+margin-bottom: 30px;
+    }
+    .ebookBtn .reservCopy .reservBtn{
+    
+display: inline-block;
+    
+padding: 0 30px;
+    
+font-size: 24px;
+    
+color: #fff;
+    
+font-size: 29px;
+    
+font-weight: 700;
+    
+background-color: #0ACF83;
+    
+border-radius: 4px 4px 4px 4px;
+    
+padding: 30px 40px 30px 40px;
+    }
+    .ebookBtn h4{
+    
+font-size: 30px;
+    
+font-weight: 600;
+    
+line-height: 1.3em;
+    
+color: #2F2F2F;
+    }
+
+.logoSlider {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 50px 0;
+}
+.logoSlider .slick-dots {
+    display: none!important;
+}
+.logoSlider .slick-arrow {
+    display: none!important;
+}
+    .logoSlider .responsive{
+    
+    }
+   .logoSlider .responsive .brandImg {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+   .logoSlider .responsive .brandImg img {
+    margin: auto;
+}
+.logoSlider .responsive .brandImg img:focus {
+    outline: none!important;
+}
+
+.checkoutBox{
+
+} 
+.checkoutBox .modal-dialog{
+
+max-width: 642px;
+}
+.checkoutBox .modal-dialog .modal-content{
+
+}
+.checkoutBox .modal-dialog .modal-content .modal-header{
+
+background: #125197;
+
+color: #fff;
+
+border: 0;
+
+border-radius: 0;
+}
+.checkoutBox .modal-dialog .modal-content .modal-header .modal-title{
+
+}
+.checkoutBox .modal-dialog .modal-content .modal-header .close{
+
+width: 66px;
+
+height: 63px;
+
+line-height: 1;
+
+padding: 0;
+
+opacity: 1;
+
+color: #fff;
+
+font-size: 30px;
+
+font-weight: 200;
+
+background: #09488e;
+}
+.checkoutBox .modal-dialog .modal-body{
+
+}
+.checkoutBox .modal-dialog .modal-body .card{
+
+border: 0;
+
+box-shadow: 0px 0px 15px 0px #d5d5d5;
+
+margin-bottom: 15px;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-header{
+
+background: transparent;
+
+border: 0;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-header h5{
+
+}
+.checkoutBox .modal-dialog .modal-body .card .card-header .btn{
+
+font-size: 21px;
+
+font-weight: 600;
+
+color: #181918;
+
+padding: 0;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body{
+
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form{
+
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form .form-input{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+margin-bottom: 10px;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form .form-input .form-control{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+border-radius: 0;
+
+min-height: 52px;
+
+padding: 0 13px;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form .form-input-action{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+text-align: right;
+
+margin: 22px 0;
+}
+.checkoutBox .modal-dialog .modal-body .card .card-body .form .form-input-action .submit-btn{
+
+border: 0;
+
+height: 48px;
+
+line-height: 40px;
+}
+
+.checkOutPanel{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+text-align: left;
+}
+.checkOutPanel .checkOutForm{
+
+width: 100%;
+
+max-width: 700px;
+
+margin: auto;
+
+padding: 50px;
+
+box-shadow: 0px 0px 47px 0px #0000002b;
+
+border: 10px solid #0c0c0c1a;
+
+border-radius: 17px;
+
+margin-bottom: 20px;
+
+display: flex;
+}
+.checkOutPanel .checkOutForm .form{
+
+}
+.checkOutPanel .checkOutForm .form .Heading{
+
+font-size: 15px;
+
+font-weight: bold;
+
+text-transform: uppercase;
+position: relative;
+margin-bottom: 15px;
+}
+.checkOutPanel .checkOutForm .form .Heading span {
+    position: absolute;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    background: #35ce82;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 13px;
+    top: 1px;
+}
+.checkOutPanel .checkOutForm .form .form-input{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+margin-bottom: 27px;
+
+}
+.checkOutPanel .checkOutForm .form .form-input label{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+font-weight: 500;
+
+font-size: 14px;
+}
+.checkOutPanel .checkOutForm .form .form-input .form-check-label {
+    font-size: 16px;
+}
+.checkOutPanel .checkOutForm .form .form-input .form-control{
+
+width: 100%;
+
+float: left;
+
+position: relative;
+
+min-height: 44px;
+
+border: 0;
+
+border-bottom: 1px solid #3535352e;
+
+border-radius: 0;
+
+padding: 0;
+}
+.checkOutPanel .checkOutForm .form .form-input .form-control:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.checkOutPanel .checkOutForm  .subitInfo {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.checkOutPanel .checkOutForm  .subitInfo .submitBtn {
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    background: #35ce82;
+    color: #fff;
+}
+.checkOutPanel .checkOutForm .form .form-input .leftSec {
+    width: 20%;
+    float: left;
+}
+.checkOutPanel .checkOutForm .form .form-input .rightSec {
+    width: 80%;
+    float: left;
+}
+.checkOutPanel .checkOutForm .form .form-input .leftSec img {
+    width: 100%;
+}
+.checkOutPanel .checkOutForm .form .form-input .rightSec .title {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.checkOutPanel .checkOutForm .form .form-input .rightSec .subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bookBox {
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 1px dashed #ffffff;
+    margin-bottom: 30px;
+    background: #c69c5e;
+    color: #fff;
+    border-radius: 14px;
+}
+.bookBox .form-input{
+    margin-left: 17px;
+    margin-top: 12px;
+}
+
+
+
+
+.bannerMain .contentBox .form .form-input #county{
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 0;
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px solid #a2a2a245;
+    border-radius: 0;
+    padding: 0 12px;
+}
+
+
+
+
+.bannerMain .contentBox .form .form-input .name_error {
+    position: absolute;
+    bottom: -20px;
+    font-size: 13px;
+     color: red;
+    display: block;
+}
+.bannerMain .contentBox .form .form-input .email_error{
+    position: absolute;
+    bottom: -20px;
+    font-size: 13px;
+     color: red;
+    display: block;
+}
+
+.bannerMain .contentBox .form .form-input span {
+       position: relative;
+   
+    font-size: 13px;
+    display: inline-table;
+}
+
+.bannerMain .contentBox .form .form-input .country_error {
+    position: absolute;
+    bottom: -20px;
+    font-size: 13px;
+     color: red;
+    display: block;
+}
+
+.bannerMain .contentBox .form .form-input .phone_error {
+    position: absolute;
+    bottom: -20px;
+    font-size: 13px;
+     color: red;
+    display: block;
+}

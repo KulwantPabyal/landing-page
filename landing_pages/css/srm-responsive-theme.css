@@ -1,0 +1,665 @@
+@media (min-width: 1200px)
+.container {
+    max-width: 1230px!important;
+}
+@media (min-width:1600px){
+    .container{
+        max-width: 1440px;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+.topbar nav.navbar.navbar-light.bg-light {
+    background: #ebebeb00!important;
+    padding: 0px 0px;
+}
+.topbar {
+    padding: 15px 0;
+}
+.topbar .navbar .navbar-brand {
+    position: relative;
+    width: 178px;
+    margin-right: 0;
+}
+.topbar .navbar .navbar-brand img {
+    height: 40px;
+}
+.btn-green {
+    background: #0acf83;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all ease .2s;
+}
+.topbar .navbar .btn {
+    height: 48px;
+    line-height: 48px;
+}
+.bannerMain {
+    padding: 15px 0;
+}
+.bannerMain .contentBox h1 {
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 100%;
+    margin-bottom: 15px;
+} 
+.bannerMain .contentBox p {
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.bannerMain .contentBox .form {
+    padding: 15px 15px;
+}
+.bannerMain .contentBox .form .Heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.bannerMain .contentBox .form .form-input .form-control {
+    height: 40px;
+    line-height: 40px;
+}
+.bannerMain .contentBox .form .form-input {
+    margin-bottom: 15px;
+}    
+.bannerMain .contentBox .form .form-input-action .submit-btn {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 47px;
+    border: 0;
+    font-size: 18px;
+}
+.glen__Box {
+    padding: 25px 0;
+}
+.glen__Box .glen__content h2 {
+    font-size: 18px;
+}
+.glen__Box    iframe {
+    width: 300px;
+    height: 200px;
+}
+.free_session_steps {
+    padding: 25px 0;
+}
+.free_session_steps .session__Heading {
+    font-size: 29px;
+}
+.free_session_steps .session_Steps .imagesSec{
+    margin-bottom: 50px;
+}
+.free_session_steps .session_Steps .imagesSec:after {
+    z-index: -1;
+    left: 7px;
+    top: 8px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li {
+  
+    padding-left: 22px;
+    font-size: 16px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li:before {
+    position: absolute;
+    left: -1px;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #35cf82;
+    border-radius: 50%;
+    top: 6px;
+}
+.footerPanel {
+    padding: 25px 0;
+}
+.footerPanel .footer__content{
+    flex-direction: column;
+}
+.footerCopy {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 13px;;
+}
+.footerPanel .footer__content .footer__right ul {
+    display: flex;
+    flex-direction: column;
+}
+.footerPanel .footer__content .footer__right ul li {
+    padding: 15px 0 15px 0px;
+    width: 100%;
+    text-align: center;
+}
+    
+.bannerMain .contentBox .leftContent h1 {
+    line-height: 30px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals {
+    
+    padding: 20px 20px;  
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .title {
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.radio-item label {
+    font-size: 14px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px;
+    margin: 0px 0 0;
+    width: 100%;
+    float: left;
+}
+.applicationForm .applications__FormPanel form .input_Form .label {
+    font-size: 13px;
+}
+.applicationForm .applications__FormPanel form .input_Form {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+} 
+.applicationForm .applications__FormPanel form .input_Form .input_field .form-control {
+    height: 44px;
+    line-height: 44px;
+}
+.applicationForm .applications__FormPanel form .input_Form-action .applicationBtn {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 0;
+}
+  
+.eventCalBox {
+    padding: 40px 20px;
+}    
+    
+}
+
+
+@media (min-width:481px) and (max-width:575px){
+.topbar nav.navbar.navbar-light.bg-light {
+    background: #ebebeb00!important;
+    padding: 2px 0px;
+}
+.topbar .navbar .navbar-brand {
+    position: relative;
+    width: 175px;
+}
+.topbar .navbar .navbar-brand img {height: 46px;}
+.bannerMain {
+    padding: 25px 0;
+}
+.topbar .navbar .btn {
+    height: 52px;
+    line-height: 52px;
+}
+.bannerMain .contentBox h1 {
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 100%;
+    margin-bottom: 15px;
+} 
+.bannerMain .contentBox p {
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.bannerMain .contentBox .form {
+    padding: 15px 20px;
+}
+.bannerMain .contentBox .form .Heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.bannerMain .contentBox .form .form-input .form-control {
+    height: 40px;
+    line-height: 40px;
+}
+.bannerMain .contentBox .form .form-input {
+    margin-bottom: 15px;
+}    
+.bannerMain .contentBox .form .form-input-action .submit-btn {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 47px;
+    border: 0;
+    font-size: 18px;
+}
+.glen__Box {
+    padding: 25px 0;
+}
+.glen__Box .glen__content h2 {
+    font-size: 18px;
+}
+.glen__Box    iframe {
+    width: 300px;
+    height: 200px;
+}
+.free_session_steps {
+    padding: 25px 0;
+}
+.free_session_steps .session__Heading {
+    font-size: 30px;
+}
+.free_session_steps .session_Steps .imagesSec{
+    margin-bottom: 50px;
+    margin:  auto;
+    margin-bottom: 30px;
+}
+.free_session_steps .session_Steps .imagesSec:after {
+    z-index: -1;
+    left: 7px;
+    top: 8px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li {
+  
+    padding-left: 22px;
+    font-size: 16px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li:before {
+    position: absolute;
+    left: -1px;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #35cf82;
+    border-radius: 50%;
+    top: 6px;
+}
+.footerPanel {
+    padding: 25px 0;
+}
+.footerPanel .footer__content{
+    flex-direction: column;
+}
+.footerCopy {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 13px;;
+}
+.footerPanel .footer__content .footer__right ul {
+    display: flex;
+    flex-direction: column;
+}
+.footerPanel .footer__content .footer__right ul li {
+    padding: 15px 0 15px 0px;
+    width: 100%;
+    text-align: center;
+}
+.bannerMain .contentBox .leftContent h1 {
+    line-height: 30px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals {
+    
+    padding: 20px 20px;  
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .title {
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.radio-item label {
+    font-size: 14px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px;
+    margin: 0px 0 0;
+    width: 100%;
+    float: left;
+}
+.applicationForm .applications__FormPanel form .input_Form .label {
+    font-size: 13px;
+}
+.applicationForm .applications__FormPanel form .input_Form {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+} 
+.applicationForm .applications__FormPanel form .input_Form .input_field .form-control {
+    height: 44px;
+    line-height: 44px;
+}
+.applicationForm .applications__FormPanel form .input_Form-action .applicationBtn {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 0;
+}       
+}
+
+@media (min-width:576px) and (max-width:767px){
+.topbar .navbar .btn {
+    height: 54px;
+    line-height: 54px;
+}
+.topbar nav.navbar.navbar-light.bg-light {
+    background: #ebebeb00!important;
+    padding: 0px 0px;
+}
+.topbar .navbar .navbar-brand {
+    position: relative;
+    width: 175px;
+}
+.topbar .navbar .navbar-brand img {height: 46px;}
+.bannerMain {
+    padding: 25px 0;
+}
+.bannerMain .contentBox h1 {
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 100%;
+    margin-bottom: 15px;
+} 
+.bannerMain .contentBox p {
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.bannerMain .contentBox .form {
+    padding: 15px 20px;
+}
+.bannerMain .contentBox .form .Heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.bannerMain .contentBox .form .form-input .form-control {
+    height: 40px;
+    line-height: 40px;
+}
+.bannerMain .contentBox .form .form-input {
+    margin-bottom: 15px;
+}    
+.bannerMain .contentBox .form .form-input-action .submit-btn {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 47px;
+    border: 0;
+    font-size: 18px;
+}
+.glen__Box {
+    padding: 25px 0;
+}
+.glen__Box .glen__content h2 {
+    font-size: 18px;
+}
+.glen__Box    iframe {
+    width: 390px;
+    height: 237px;
+}
+.free_session_steps {
+    padding: 25px 0;
+}
+.free_session_steps .session__Heading {
+    font-size: 30px;
+}
+.free_session_steps .session_Steps .imagesSec{
+    margin-bottom: 66px;
+    MARGIN: auto;
+}
+.free_session_steps .session_Steps .session_steps_List {
+    margin-top: 50px;
+}
+.free_session_steps .session_Steps .imagesSec:after {
+    z-index: -1;
+    left: 7px;
+    top: 8px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li {
+  
+    padding-left: 22px;
+    font-size: 16px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li:before {
+    position: absolute;
+    left: -1px;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #35cf82;
+    border-radius: 50%;
+    top: 6px;
+}
+.footerPanel {
+    padding: 25px 0;
+}
+.footerPanel .footer__content{
+    flex-direction: column;
+}
+.footerCopy {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 13px;;
+}
+.footerPanel .footer__content .footer__right ul {
+    display: flex;
+    flex-direction: column;
+}
+.footerPanel .footer__content .footer__right ul li {
+    padding: 15px 0 15px 0px;
+    width: 100%;
+    text-align: center;
+} 
+    
+.bannerMain .contentBox .leftContent h1 {
+    line-height: 38px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals {
+    
+    padding: 20px 20px;  
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .title {
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.radio-item label {
+    font-size: 14px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px;
+    margin: 0px 0 0;
+    width: 100%;
+    float: left;
+}
+.applicationForm .applications__FormPanel form .input_Form .label {
+    font-size: 13px;
+}
+.applicationForm .applications__FormPanel form .input_Form {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+} 
+.applicationForm .applications__FormPanel form .input_Form .input_field .form-control {
+    height: 44px;
+    line-height: 44px;
+}
+.applicationForm .applications__FormPanel form .input_Form-action .applicationBtn {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 0;
+}    
+    
+    
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    .bannerMain .contentBox h1 {
+   
+font-size: 30px;
+   
+font-weight: 800;
+   
+width: 100%;
+}
+.bannerMain .contentBox p {
+    font-size: 21px;
+}
+.bannerMain .contentBox .form .form-input .form-control {
+    height: 56px;
+    line-height: 56px;
+    font-size: 16px;
+}
+.bannerMain .contentBox .form .form-input {
+    margin-bottom: 20px;
+}    
+.bannerMain .contentBox .form .form-input-action .submit-btn {
+    height: 56px;
+    line-height: 56px;
+    padding: 0 47px;
+    border: 0;
+    font-size: 18px;
+}
+.glen__Box {
+    padding: 25px 0;
+}
+.glen__Box .glen__content h2 {
+    font-size: 31px;
+}
+.glen__Box    iframe {
+    width: 551px;
+    height: 344px;
+}
+.free_session_steps {
+    padding: 25px 0;
+}
+.free_session_steps .session__Heading {
+    font-size: 30px;
+}
+.free_session_steps .session_Steps .imagesSec{
+    margin-bottom: 50px;
+    background-position: left;
+}
+.free_session_steps .session_Steps .imagesSec:after {
+    z-index: -1;
+    left: 7px;
+    top: 8px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li {
+  
+    padding-left: 22px;
+    font-size: 16px;
+}
+.free_session_steps .session_Steps .session_steps_List ul li:before {
+    position: absolute;
+    left: -1px;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #35cf82;
+    border-radius: 50%;
+    top: 6px;
+}
+.footerPanel {
+    padding: 25px 0;
+}
+.footerPanel .footer__content{
+    flex-direction: row;
+}
+.footerCopy {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 13px;;
+}
+.footerPanel .footer__content .footer__right ul {
+    display: flex;
+    flex-direction: row;
+    min-width: 367px;
+}
+.footerPanel .footer__content .footer__right ul li {
+    padding: 15px 0 15px 0px;
+    width: 100%;
+    text-align: center;
+}
+    
+.bannerMain .contentBox .leftContent h1 {
+    line-height: 50px;
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals {
+    
+    padding: 20px 20px;  
+}
+.bannerMain .contentBox .RightContent .cochingSectionGoals .title {
+   
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.radio-item label {
+    font-size: 14px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 6px 6px;
+    margin: 0px 0 0;
+    width: 100%;
+    float: left;
+}
+.applicationForm .applications__FormPanel form .input_Form .label {
+    font-size: 16px;
+}
+.applicationForm .ap  plications__FormPanel form .input_Form {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+} 
+.applicationForm .applications__FormPanel form .input_Form .input_field .form-control {
+    height: 44px;
+    line-height: 44px;
+}
+.applicationForm .applications__FormPanel form .input_Form-action .applicationBtn {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border: 0;
+}   
+    
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+.free_session_steps .session_Steps .imagesSec {
+    width: 100%;
+    max-width: 380px;
+}
+    
+}
+@media (min-width:1200px) and (max-width:1440px){
+.free_session_steps .session_Steps .imagesSec {
+    width: 100%;
+    max-width: 440px;
+}
+    
+}
+@media (min-width:1441px) and (max-width:1600px){
+.free_session_steps .session_Steps .imagesSec {
+    width: 100%;
+    max-width: 441px;
+}
+    
+}
